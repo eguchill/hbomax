@@ -1,25 +1,19 @@
 {
-  "name": "dotenv",
-  "version": "0.0.0",
-  "description": "HBO Max open-source streaming platform with streaming server.",
-  "main": "run.js",
+  "name": "hbomax",
+  "private": true,
   "scripts": {
-    "test": "hbotest"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eguchill/hbomax.git"
-  },
-  "keywords": [
-    "hbomax"
-  ],
-  "author": "Vinicius Monteiro",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/eguchill/hbomax/issues"
-  },
-  "homepage": "https://github.com/eguchill/hbomax#readme",
   "dependencies": {
-    "dotenv": "^16.0.0"
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.0.10"
   }
 }
